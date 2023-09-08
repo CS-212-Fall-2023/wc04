@@ -1,0 +1,55 @@
+\documentclass[a4paper]{exam}
+
+\usepackage{amsmath,amssymb, amsthm}
+\usepackage[a4paper]{geometry}
+\usepackage{hyperref}
+\usepackage{mdframed}
+
+\title{Weekly Challenge 04: Regular Expressions}
+\author{CS 212 Nature of Computation\\Habib University}
+\date{Fall 2023}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+
+\theoremstyle{claim}
+\newtheorem{claim}{Claim}
+
+\qformat{{\large\bf \thequestion. \thequestiontitle}\hfill}
+\boxedpoints
+
+
+%%%%%%%% Uncomment to include your solution.
+% \printanswers
+
+\begin{document}
+\maketitle
+
+\begin{questions}
+
+\titledquestion{Closures}
+
+  Given a language, $L$, and the definitions below, prove or disprove the given claim.
+
+  \begin{definition}[Kleene closure]
+    $L^*=\{ u_1u_2u_3\ldots u_n \mid each u_i\in L, n\ge 0\}$
+  \end{definition}
+  \begin{definition}[Positive closure]
+    $L^+=\{ u_1u_2u_3\ldots u_n \mid each u_i\in L, n\ge 1\}$
+  \end{definition}
+
+  \begin{claim}
+    $(L^+)^*=(L^*)^+$
+  \end{claim}  
+
+  \begin{solution}
+    
+  \end{solution}
+  
+\end{questions}
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
